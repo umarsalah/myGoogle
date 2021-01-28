@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --p: 1px solid #dfe1e5;
+}
+
+body {
+    font-family: HelveticaNeue, 'Noto Naskh Arabic UI', Arial, sans-serif;
+}
+
+.tool-bar {
+    height: auto;
+}
+
+.tool-bar ul {
+    padding: 15px 15px;
+}
+
+.tool-bar ul li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.tool-bar ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    vertical-align: center;
+}
+
+#profile img {
+    width: 40px;
+    height: 40px;
+}
+
+#Apps img {
+    width: 40px;
+    height: 40px;
+}
+
+.head-text {
+    padding: 10px;
+    margin: auto;
+    font-size: 10px;
+}
+
+.head-text :hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.Google {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+}
+
+.Google-logo {
+    display: block;
+    max-width: 150%;
+}
+
+.search {
+    display: flex;
+    margin-left: -50%;
+    margin-top: 35px;
+    width: 200%;
+    max-width: 300%;
+    position: relative;
+    margin-bottom: 15px;
+    border: var(--p);
+    border-radius: 25px;
+}
+
+.search-icon {
+    align-items: center;
+    padding: 10px;
+    color: white;
+    max-width: 20px;
+    text-align: center;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.search-icon img {
+    width: 100%;
+}
+
+.search:hover {
+    --p: 2px solid #dfe1e5;
+}
+
+.Google-Buttons {
+    display: flex;
+    width: 200%;
+    max-width: 300%;
+    margin-top: 35px;
+}
+
+.my-button {
+    padding: 10px;
+    margin: 25px;
+    background-color: #faf8f8;
+    border-radius: 7px;
+    color: rgb(66, 65, 65);
+    transition-duration: 0.2s;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.my-button:hover {
+    background-color: #e0dbdb;
+}
+
+.location {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 26px;
+    background-color: #e6e7e9;
+    border-style: outset;
+    border-top: white;
+    border-left: white;
+    border-bottom: 1px solid #dadce0;
+}
+
+#Palestine {
+    padding: 15px 30px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 55px;
+    font-size: 15px;
+    background-color: #e6e7e9;
+}
+
+.footer ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 8px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+    vertical-align: -webkit-baseline-middle;
+    font-size: 17px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
