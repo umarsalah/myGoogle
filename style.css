@@ -11,23 +11,29 @@ body {
 }
 
 .tool-bar {
-    height: auto;
-}
-
-.tool-bar ul {
-    padding: 15px 15px;
+    margin-top: .5rem;
+    display: flex;
 }
 
 .tool-bar ul li {
-    display: inline-block;
     margin: 4px;
+    list-style-type: none;
 }
 
 .tool-bar ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
     font-size: 15px;
-    vertical-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.tool-bar ul li a :hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 #profile img {
@@ -71,7 +77,8 @@ body {
     max-width: 300%;
     position: relative;
     margin-bottom: 15px;
-    border: var(--p);
+    /* border: var(--p); */
+    border: 2px solid #e7e9eb;
     border-radius: 25px;
 }
 
@@ -86,6 +93,7 @@ body {
 .search-field {
     width: 100%;
     padding: 10px;
+    margin-left: 1rem;
     outline: none;
     border: none;
 }
@@ -95,7 +103,8 @@ body {
 }
 
 .search:hover {
-    --p: 2px solid #dfe1e5;
+    /* --p: 2px solid #dfe1e5; */
+    border: 2px solid #c8c9cc;
 }
 
 .Google-Buttons {
